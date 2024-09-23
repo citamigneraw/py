@@ -28,11 +28,12 @@ def pdf_to_excel(pdf_path, excel_path):
 
 def process_pdfs_in_current_directory():
     # Get the current working directory
-    #current_dir = Path('.')
-    current_dir = Path('/home/ep/test/publicutils_columbus2024')
+    current_dir = Path('.')
+    #current_dir = Path('/home/ep/test/warrensept')
     # Output directory
-    output_dir = current_dir / 'converted_xlsx2'
-    output_dir.mkdir(exist_ok=True)  # Create output directory if it doesn't exist
+    #output_dir = current_dir / 'converted_xlsx2'
+    #output_dir.mkdir(exist_ok=True)  # Create output directory if it doesn't exist
+    output_dir = current_dir 
 
     # Loop through all PDF files in the current directory
     for pdf_file in current_dir.glob('*.pdf'):

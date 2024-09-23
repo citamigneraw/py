@@ -2,9 +2,9 @@ import pandas as pd
 import os
 
 # Directory where the Excel files are located
-input_directory = 'warren_vouchers_new_with0802/converted_xlsx2'
+input_directory = '/home/ep/test/warrensept/converted_xlsx2'
 # Path for the output Excel file
-output_file = 'warren_vouchers_new_with0802/converted_xlsx2/combined_excel_file.xlsx'
+output_file = '/home/ep/test/warrensept/converted_xlsx2/combined_excel_file.xlsx'
 
 dfs = []
 
