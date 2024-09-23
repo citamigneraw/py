@@ -19,8 +19,8 @@ def convert_numbers_to_comma_separated(input_file, output_file):
         print(f"Error: An I/O error occurred. Details: {e}")
 
 # Specify the input and output file paths
-input_file = 'munic.txt'  # Replace with your input file path
-output_file = 'munic2.txt'  # Replace with your output file path
+input_file = 'feesmonetera.txt'  # Replace with your input file path
+output_file = 'feesmonetera1.txt'  # Replace with your output file path
 
 # Convert the numbers
 convert_numbers_to_comma_separated(input_file, output_file)

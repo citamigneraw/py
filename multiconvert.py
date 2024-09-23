@@ -21,7 +21,7 @@ def process_pdfs_in_current_directory():
     # Get the current working directory
     current_dir = Path('.')
     # Output directory (can be set to current directory or another location)
-    output_dir = current_dir / 'converted_xlsx'
+    output_dir = current_dir / 'converted_xlsx2'
     output_dir.mkdir(exist_ok=True)  # Create output directory if it doesn't exist
 
     # Loop through all PDF files in the current directory

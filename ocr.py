@@ -10,34 +10,9 @@ import csv
 
 # List of files (images and PDFs)
 file_paths = [
-  "/home/ep/test/pics/1.png",
-  "/home/ep/test/pics/2.png",
-  "/home/ep/test/pics/3.png",
-  "/home/ep/test/pics/4.png",
-  "/home/ep/test/pics/5.png",
-  "/home/ep/test/pics/6.png",
-  "/home/ep/test/pics/7.png",
-  "/home/ep/test/pics/8.png",
-  "/home/ep/test/pics/9.png",
-  "/home/ep/test/pics/10.png",
-  "/home/ep/test/pics/11.png",
-  "/home/ep/test/pics/12.png",
-  "/home/ep/test/pics/13.png",
-  "/home/ep/test/pics/14.png",
-  "/home/ep/test/pics/15.png",
-  "/home/ep/test/pics/16.png",
-  "/home/ep/test/pics/17.png",
-  "/home/ep/test/pics/18.png",
-  "/home/ep/test/pics/19.png",
-  "/home/ep/test/pics/20.png",
-  "/home/ep/test/pics/21.png",
-  "/home/ep/test/pics/22.png",
-  "/home/ep/test/pics/23.png",
-  "/home/ep/test/pics/24.png",
-  "/home/ep/test/pics/25.png",
-  "/home/ep/test/pics/26.png",
-  "/home/ep/test/pics/27.png",
-  "/home/ep/test/pics/28.png"
+ "/home/ep/test/secu/17.png",
+  "/home/ep/test/secu/18.png",
+  "/home/ep/test/secu/19.png"
 ]
 
 def extract_text_from_image(path):

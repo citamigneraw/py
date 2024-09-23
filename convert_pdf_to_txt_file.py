@@ -28,7 +28,7 @@ def pdf_to_text_with_ocr(pdf_path, text_path):
 def process_pdfs_in_current_directory():
     # Get the current working directory
     #current_dir = Path('.')
-    current_dir = Path('/home/ep/test/publicutils_columbus2024')
+    current_dir = Path('/home/ep/test/python_scripts')
     # Output directory
     output_dir = current_dir / 'converted_text'
     output_dir.mkdir(exist_ok=True)  # Create output directory if it doesn't exist
